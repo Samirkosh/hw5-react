@@ -1,0 +1,63 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+li {
+  list-style-type: none;
+  width: 485px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(227, 152, 152);
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 20px;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  gap: 20px;
+}
+input {
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0 0 0 20px;
+  font-size: 20px;
+  border: 2px solid rgb(242, 39, 39);
+}
+
+.btnAdd,
+.btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid rgb(242, 39, 39);
+  background-color: rgb(227, 152, 152);
+  color: white;
+}
+
+.FormBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.btn {
+  background-color: white;
+  color: rgb(242, 39, 39);
+}
